@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.8;
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 900 !important;
+}
+
+a {
+  text-decoration: none;
+  transition:all 0.4s ease;
+  font-weight: 900;
+}
+
+img {
+  width: 100%;
+}
+
+.navbar {
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nv .show .nav-link {
+    background: -webkit-linear-gradient(#00D7FF, #5800FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  z-index: 2;
+  position: relative;
+}
+
+.bg-cover {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(251, 122, 252, 0.3) , rgba(251, 199, 247, 0.3));
+  z-index: -1;
+}
+
+.hero-section{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.btn {
+  padding: 14px 22px;
+  transition: all 0.5s ease;
+}
+
+.btn-main {
+  background: linear-gradient(to right, rgb(255, 84, 3), rgb(249, 7, 22));
+  border-radius: 100px;
+  border: none;
+  font-weight: 900;
+  color: #fff;
+}
+
+.btn:hover {
+  color: #F7FD04;
+  transform: translateY(-5px);
+}
+
+.service-img {
+  transition: all 1s ease-in-out;
+}
+
+.service-img:hover {
+   box-shadow: 1px 2px 10px #96BAFF;
+   border-radius: 25px;
+}
+
+.video-btn {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(to right, rgb(255, 84, 3), rgb(249, 7, 22));
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: #F7FD04;
+  border-radius: 100px;
+}
+
+
+.section-intro {
+  margin-bottom: 40px;
+
+}
+
+.section-intro .divider {
+  height: 4px;
+  width: 70px;
+    background: linear-gradient(to right, rgb(255, 84, 3), rgb(249, 7, 22));
+    margin: 16px auto;
+}
+
+
+.feature-img {
+  transition: all 1s ease-in-out;
+}
+
+.feature-img:hover {
+  border-radius: 25px;
+  box-shadow: 1px 2px 10px #96BAFF;
+}
+
+
+.review {
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 50px !important;
+}
+
+.review-img {
+  transition: all 1s ease-in-out;
+}
+
+.review-img:hover {
+    border-radius: 25px;
+    box-shadow: 1px 2px 10px #96BAFF;
+}
+
+form .form-control {
+  height: 54px;
+  border-radius:0;
+  background: transparent;
+}
+
+form .form-control::placeholder {
+  color: #fff;
+}
+
+.para-footer {
+  font-weight: bold;
+  
+}
+
+.head-5 {
+  color: rgb(255, 84, 3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
